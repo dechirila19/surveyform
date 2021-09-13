@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="en">
+  <head>
+    <title>Smoothie Bar Experience Survey</title>
+    </head>
+  <style class="smoothie-back">
+  </style>
+    <body>
+      <main>
+        <h1 id="title">Smoothie Bar experience Survey</h1>
+        
+        <p id="description">Dear valued Customer, please complete this survey and tell us about your experience at Smoothie Bar. Your feedback will be used to improve our business and environment. Thank you so much!</p>
+<div class="entire-survey">
+         <form id="survey-form">
+           <div>
+             <center>
+               <div class="name-section">
+         <label id="name-label"><b> Name</b></label>
+             
+        <input type="name" id="name" placeholder="Enter your Name..." required>
+               </div>
+             <center>
+          </div>
+           <div>
+             <center>
+           <label id="email-label"><b>Email</b></label>
+        <input type="email" id="email" placeholder="Enter your email..." required>
+             </center>
+           </div>
+           <div>
+             <center>
+           <label id="number-label"><b>Age</b></label>
+             
+           <input type="number" id="number" min="0" max="150" placeholder="Age...">
+             </center>
+           </div>
+           
+           <p><b>Select your favorite smoothie or the smoothie you got</b></p>
+               
+<center>          
+<form>
+<select name="Smoothie" id="dropdown">
+  <option value="" selected disabled hidden id="dropdown">Select Smoothie</option>
+  <option value="Chocolate">Chocolate</option>
+  <option value="Raspberry">Raspberry</option>
+  <option value="Vanilla">Vanilla</option>
+  <option value="Blueberry">Blueberry</option>
+  </select>
+  
+  <p><b>After your experience at Smoothie Bar, would you ever come back?</b></p>
+  
+  <label for="Yes"> 
+  <input id="Yes" type="radio" name="yes-no-maybe" value="Yes"> Yes</label>
+  
+  <label for="No"> 
+  <input id="No" type="radio" name="yes-no-maybe" value="No"> No</label>
+  
+  <label for="Maybe"> 
+  <input id="Maybe" type="radio" name="yes-no-maybe" value="Maybe"> Maybe</label>
+  
+  <p><b>Tell us your preferred method of communication for events in the future</b></p>
+  
+  <label for="Email"><input id="Email" value="Email" type="checkbox" name="communication" class="checkbox"> Email</label>
+  
+  <label for="Mail"><input id="Mail" value="Mail" type="checkbox" name="communication" class="checkbox"> Mail</label>
+  
+  <label for="Text"><input id="Text" value="Text" type="checkbox" name="communication" class="checkbox"> Text</label>
+  
+  <p><b>Leave a comment</b></p>
+  
+<textarea id="Comments" name="Comments" rows="8" cols="50"></textarea>
+  <div class="submit">
+<input type="submit" value="Submit" id="submit">
+</center>
+  </div>
+  </div>
+
+
+  <form action="mailto:dchirila6@gmail.com">
+  </form>
+  </div> 
+  </select>      
+      </main>
+           <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"</script> 
+    </body>
+    </html>
+<!-- partial -->
+  
+</body>
+</html>
